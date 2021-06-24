@@ -169,7 +169,6 @@
       margin-bottom: 20px;
       margin-top: 20px;
       padding: 20px;
-      background-color: cornflowerblue;
-
+      background-color: rgb(182, 191, 207);      
     }
 </style>

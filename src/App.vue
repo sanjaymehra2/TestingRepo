@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <v-app-bar >
-      <router-link to="/">Home1</router-link> 
+      <v-toolbar class="green white-text">
+      <router-link to="/">Home</router-link> 
+      <v-spacer></v-spacer>
       <router-link to="/about">About</router-link>
-      </v-app-bar>
+      </v-toolbar>
     </div>
     <router-view/>
   </div>
@@ -21,6 +22,7 @@
 
 #nav {
   padding: 30px;
+  background-color: cornflowerblue;
 
   a {
     font-weight: bold;
